@@ -11,7 +11,7 @@ tar -zxvf frp_${FRP_VERSION}_linux_amd64.tar.gz && \
 cd frp_${FRP_VERSION}_linux_amd64 && \
 mv frps /usr/local/frp && \
 # 下载frps.in和frps.service
-wget -P /usr/local/frp https://raw.githubusercontent.com/JiuBoy/frps/master/frps.ini && \
+wget -P /usr/local/frp https://raw.githubusercontent.com/${REPO}/master/frps.ini && \
 wget -P /lib/systemd/system https://raw.githubusercontent.com/${REPO}/master/frps.service && \
 systemctl daemon-reload && \
 # 启动frps
