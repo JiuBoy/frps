@@ -1,5 +1,5 @@
 #!/bin/sh
-FRP_VERSION="0.36.2"
+FRP_VERSION="0.51.3"
 REPO="JiuBoy/frps"
 WORK_PATH=$(dirname $(readlink -f $0))
 
